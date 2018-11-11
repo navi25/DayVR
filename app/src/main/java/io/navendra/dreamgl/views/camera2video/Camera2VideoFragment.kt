@@ -202,6 +202,9 @@ class Camera2VideoFragment : Fragment(), View.OnClickListener,
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         textureView = view.findViewById(R.id.texture)
+
+        val surfaceView = CustomView(this)
+        surfaceView.setZOrderOnTop(true)
         videoButton = view.findViewById<Button>(R.id.video).also {
             it.setOnClickListener(this)
         }

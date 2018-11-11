@@ -11,4 +11,6 @@
     <string name="description_info">Info</string>
     <string name="permission_request">This sample needs permission for camera and audio recording.</string>
     <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="toggleReleaseCallbackOff">Toggle release (now: ST callback)</string>
+    <string name="toggleReleaseCallbackOn">Toggle release (now: renderer)</string>
 </resources>
