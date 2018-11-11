@@ -16,12 +16,28 @@ class DayGLTriangle(private val triangleCoords: FloatArray, private val COORDS_P
     private val vertexCount: Int = triangleCoords.size / COORDS_PER_VERTEX
     private val vertexStride: Int = COORDS_PER_VERTEX * 4 // 4 bytes per vertex
 
-
     private val vertexShaderCode =
-        "attribute vec4 vPosition;" +
+    // This matrix member variable provides a hook to manipulate
+    // the coordinates of the objects that use this vertex shader
+        "uniform mat4 uMVPMatrix;" +
+                "attribute vec4 vPosition;" +
                 "void main() {" +
-                "  gl_Position = vPosition;" +
+                // the matrix must be included as a modifier of gl_Position
+                // Note that the uMVPMatrix factor *must be first* in order
+                // for the matrix multiplication product to be correct.
+                "  gl_Position = uMVPMatrix * vPosition;" +
                 "}"
+
+    // Use to access and set the view transformation
+    private var mMVPMatrixHandle: Int = 0
+
+
+
+//    private val vertexShaderCode =
+//        "attribute vec4 vPosition;" +
+//                "void main() {" +
+//                "  gl_Position = vPosition;" +
+//                "}"
 
     private val fragmentShaderCode =
         "precision mediump float;" +
@@ -70,29 +86,21 @@ class DayGLTriangle(private val triangleCoords: FloatArray, private val COORDS_P
         }
 
 
-    fun draw(){
-        GLES20.glUseProgram(program)
-        positionHandle = GLES20.glGetAttribLocation(program,"vPosition").also {
-            GLES20.glEnableVertexAttribArray(it)
-            GLES20.glVertexAttribPointer(
-                it,
-                COORDS_PER_VERTEX,
-                GLES20.GL_FLOAT,
-                false,
-                vertexStride,
-                vertexBuffer
-            )
+    fun draw(mvpMatrix: FloatArray) { // pass in the calculated transformation matrix
 
-            colorHandle = GLES20.glGetUniformLocation(program,"vColor").also {
-                    colorHandle -> GLES20.glUniform4fv(colorHandle,1,color, 0)
-            }
+        // get handle to shape's transformation matrix
+        mMVPMatrixHandle = GLES20.glGetUniformLocation(program, "uMVPMatrix")
 
-            GLES20.glDrawArrays(GLES20.GL_TRIANGLES, 0, vertexCount)
+        // Pass the projection and view transformation to the shader
+        GLES20.glUniformMatrix4fv(mMVPMatrixHandle, 1, false, mvpMatrix, 0)
 
-            GLES20.glDisableVertexAttribArray(it)
-        }
+        // Draw the triangle
+        GLES20.glDrawArrays(GLES20.GL_TRIANGLES, 0, vertexCount)
 
+        // Disable vertex array
+        GLES20.glDisableVertexAttribArray(positionHandle)
     }
+
 
 
 }

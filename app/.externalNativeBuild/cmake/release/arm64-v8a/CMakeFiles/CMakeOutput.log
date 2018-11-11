@@ -1,19 +1,19 @@
 The target system is: Android - 1 - aarch64
 The host system is: Darwin - 18.0.0 - x86_64
 Determining if the C compiler works passed with the following output:
-Change Dir: /Users/navi/Downloads/DayVR/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
+Change Dir: /Users/navi/AndroidStudioProjects/DayVR/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/navi/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_002ec"
-[1/2] Building C object CMakeFiles/cmTC_002ec.dir/testCCompiler.c.o
-[2/2] Linking C executable cmTC_002ec
+Run Build Command:"/Users/navi/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_0eb01"
+[1/2] Building C object CMakeFiles/cmTC_0eb01.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_0eb01
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /Users/navi/Downloads/DayVR/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
+Change Dir: /Users/navi/AndroidStudioProjects/DayVR/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/navi/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_7fce2"
-[1/2] Building C object CMakeFiles/cmTC_7fce2.dir/CMakeCCompilerABI.c.o
-[2/2] Linking C executable cmTC_7fce2
+Run Build Command:"/Users/navi/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_ed649"
+[1/2] Building C object CMakeFiles/cmTC_ed649.dir/CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTC_ed649
 Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn)
 Target: aarch64-none-linux-android26
 Thread model: posix
@@ -22,16 +22,16 @@ Found candidate GCC installation: /Users/navi/Library/Android/sdk/ndk-bundle/too
 Selected GCC installation: /Users/navi/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
- "/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld" --sysroot=/Users/navi/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-arm64 -pie --fix-cortex-a53-843419 --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_7fce2 /Users/navi/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-arm64/usr/lib/crtbegin_dynamic.o -L/Users/navi/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -L/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/aarch64 -L/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/navi/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-arm64/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_7fce2.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/navi/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-arm64/usr/lib/crtend_android.o
+ "/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld" --sysroot=/Users/navi/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-arm64 -pie --fix-cortex-a53-843419 --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_ed649 /Users/navi/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-arm64/usr/lib/crtbegin_dynamic.o -L/Users/navi/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -L/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/aarch64 -L/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/navi/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-arm64/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_ed649.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/navi/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-arm64/usr/lib/crtend_android.o
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(aarch64-linux-android-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/navi/Downloads/DayVR/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Users/navi/AndroidStudioProjects/DayVR/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/Users/navi/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_7fce2"]
-  ignore line: [[1/2] Building C object CMakeFiles/cmTC_7fce2.dir/CMakeCCompilerABI.c.o]
-  ignore line: [[2/2] Linking C executable cmTC_7fce2]
+  ignore line: [Run Build Command:"/Users/navi/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_ed649"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_ed649.dir/CMakeCCompilerABI.c.o]
+  ignore line: [[2/2] Linking C executable cmTC_ed649]
   ignore line: [Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn)]
   ignore line: [Target: aarch64-none-linux-android26]
   ignore line: [Thread model: posix]
@@ -42,7 +42,7 @@ Parsed C implicit link information from above output:
   ignore line: [@m64]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  link line: [ "/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld" --sysroot=/Users/navi/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-arm64 -pie --fix-cortex-a53-843419 --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_7fce2 /Users/navi/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-arm64/usr/lib/crtbegin_dynamic.o -L/Users/navi/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -L/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/aarch64 -L/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/navi/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-arm64/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_7fce2.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/navi/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-arm64/usr/lib/crtend_android.o]
+  link line: [ "/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld" --sysroot=/Users/navi/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-arm64 -pie --fix-cortex-a53-843419 --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_ed649 /Users/navi/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-arm64/usr/lib/crtbegin_dynamic.o -L/Users/navi/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -L/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/aarch64 -L/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/navi/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-arm64/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_ed649.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/navi/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-arm64/usr/lib/crtend_android.o]
     arg [/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld] ==> ignore
     arg [--sysroot=/Users/navi/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-arm64] ==> ignore
     arg [-pie] ==> ignore
@@ -54,7 +54,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker64] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_7fce2] ==> ignore
+    arg [cmTC_ed649] ==> ignore
     arg [/Users/navi/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-arm64/usr/lib/crtbegin_dynamic.o] ==> ignore
     arg [-L/Users/navi/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/arm64-v8a] ==> dir [/Users/navi/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/arm64-v8a]
     arg [-L/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/aarch64] ==> dir [/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/aarch64]
@@ -75,7 +75,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [--gc-sections] ==> ignore
     arg [-znocopyreloc] ==> ignore
-    arg [CMakeFiles/cmTC_7fce2.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_ed649.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-ldl] ==> lib [dl]
     arg [-lc] ==> lib [c]
@@ -98,11 +98,11 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /Users/navi/Downloads/DayVR/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
+Change Dir: /Users/navi/AndroidStudioProjects/DayVR/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/navi/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_253f4"
-[1/2] Building C object CMakeFiles/cmTC_253f4.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_253f4
+Run Build Command:"/Users/navi/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_88c81"
+[1/2] Building C object CMakeFiles/cmTC_88c81.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_88c81
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -112,11 +112,11 @@ Run Build Command:"/Users/navi/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" 
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /Users/navi/Downloads/DayVR/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
+Change Dir: /Users/navi/AndroidStudioProjects/DayVR/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/navi/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_0c784"
-[1/2] Building C object CMakeFiles/cmTC_0c784.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_0c784
+Run Build Command:"/Users/navi/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_2fc91"
+[1/2] Building C object CMakeFiles/cmTC_2fc91.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_2fc91
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -126,11 +126,11 @@ Run Build Command:"/Users/navi/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" 
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /Users/navi/Downloads/DayVR/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
+Change Dir: /Users/navi/AndroidStudioProjects/DayVR/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/navi/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_110e7"
-[1/2] Building C object CMakeFiles/cmTC_110e7.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_110e7
+Run Build Command:"/Users/navi/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_f939a"
+[1/2] Building C object CMakeFiles/cmTC_f939a.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_f939a
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -138,19 +138,19 @@ Run Build Command:"/Users/navi/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" 
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /Users/navi/Downloads/DayVR/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
+Change Dir: /Users/navi/AndroidStudioProjects/DayVR/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/navi/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_ec876"
-[1/2] Building CXX object CMakeFiles/cmTC_ec876.dir/testCXXCompiler.cxx.o
-[2/2] Linking CXX executable cmTC_ec876
+Run Build Command:"/Users/navi/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_ee846"
+[1/2] Building CXX object CMakeFiles/cmTC_ee846.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_ee846
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /Users/navi/Downloads/DayVR/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
+Change Dir: /Users/navi/AndroidStudioProjects/DayVR/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/navi/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_b1988"
-[1/2] Building CXX object CMakeFiles/cmTC_b1988.dir/CMakeCXXCompilerABI.cpp.o
-[2/2] Linking CXX executable cmTC_b1988
+Run Build Command:"/Users/navi/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_967e7"
+[1/2] Building CXX object CMakeFiles/cmTC_967e7.dir/CMakeCXXCompilerABI.cpp.o
+[2/2] Linking CXX executable cmTC_967e7
 Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn)
 Target: aarch64-none-linux-android26
 Thread model: posix
@@ -159,16 +159,16 @@ Found candidate GCC installation: /Users/navi/Library/Android/sdk/ndk-bundle/too
 Selected GCC installation: /Users/navi/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
- "/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld" --sysroot=/Users/navi/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-arm64 -pie --fix-cortex-a53-843419 --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_b1988 /Users/navi/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-arm64/usr/lib/crtbegin_dynamic.o -L/Users/navi/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -L/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/aarch64 -L/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/navi/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-arm64/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_b1988.dir/CMakeCXXCompilerABI.cpp.o -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /Users/navi/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-arm64/usr/lib/crtend_android.o
+ "/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld" --sysroot=/Users/navi/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-arm64 -pie --fix-cortex-a53-843419 --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_967e7 /Users/navi/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-arm64/usr/lib/crtbegin_dynamic.o -L/Users/navi/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -L/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/aarch64 -L/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/navi/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-arm64/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_967e7.dir/CMakeCXXCompilerABI.cpp.o -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /Users/navi/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-arm64/usr/lib/crtend_android.o
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(aarch64-linux-android-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/navi/Downloads/DayVR/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Users/navi/AndroidStudioProjects/DayVR/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/Users/navi/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_b1988"]
-  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_b1988.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [[2/2] Linking CXX executable cmTC_b1988]
+  ignore line: [Run Build Command:"/Users/navi/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_967e7"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_967e7.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [[2/2] Linking CXX executable cmTC_967e7]
   ignore line: [Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn)]
   ignore line: [Target: aarch64-none-linux-android26]
   ignore line: [Thread model: posix]
@@ -179,7 +179,7 @@ Parsed CXX implicit link information from above output:
   ignore line: [@m64]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  link line: [ "/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld" --sysroot=/Users/navi/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-arm64 -pie --fix-cortex-a53-843419 --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_b1988 /Users/navi/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-arm64/usr/lib/crtbegin_dynamic.o -L/Users/navi/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -L/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/aarch64 -L/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/navi/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-arm64/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_b1988.dir/CMakeCXXCompilerABI.cpp.o -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /Users/navi/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-arm64/usr/lib/crtend_android.o]
+  link line: [ "/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld" --sysroot=/Users/navi/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-arm64 -pie --fix-cortex-a53-843419 --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_967e7 /Users/navi/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-arm64/usr/lib/crtbegin_dynamic.o -L/Users/navi/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -L/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/aarch64 -L/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/navi/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-arm64/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_967e7.dir/CMakeCXXCompilerABI.cpp.o -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /Users/navi/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-arm64/usr/lib/crtend_android.o]
     arg [/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld] ==> ignore
     arg [--sysroot=/Users/navi/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-arm64] ==> ignore
     arg [-pie] ==> ignore
@@ -191,7 +191,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker64] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_b1988] ==> ignore
+    arg [cmTC_967e7] ==> ignore
     arg [/Users/navi/Library/Android/sdk/ndk-bundle/platforms/android-26/arch-arm64/usr/lib/crtbegin_dynamic.o] ==> ignore
     arg [-L/Users/navi/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/arm64-v8a] ==> dir [/Users/navi/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/arm64-v8a]
     arg [-L/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/aarch64] ==> dir [/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/7.0.2/lib/linux/aarch64]
@@ -212,7 +212,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [--gc-sections] ==> ignore
     arg [-znocopyreloc] ==> ignore
-    arg [CMakeFiles/cmTC_b1988.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_967e7.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lm] ==> lib [m]
     arg [-lgcc] ==> lib [gcc]
     arg [-lgcc] ==> lib [gcc]
@@ -240,11 +240,11 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /Users/navi/Downloads/DayVR/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
+Change Dir: /Users/navi/AndroidStudioProjects/DayVR/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/navi/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_bc55a"
-[1/2] Building CXX object CMakeFiles/cmTC_bc55a.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_bc55a
+Run Build Command:"/Users/navi/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_d3990"
+[1/2] Building CXX object CMakeFiles/cmTC_d3990.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_d3990
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -307,11 +307,11 @@ Run Build Command:"/Users/navi/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" 
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /Users/navi/Downloads/DayVR/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
+Change Dir: /Users/navi/AndroidStudioProjects/DayVR/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/navi/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_1d4e9"
-[1/2] Building CXX object CMakeFiles/cmTC_1d4e9.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_1d4e9
+Run Build Command:"/Users/navi/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_733a7"
+[1/2] Building CXX object CMakeFiles/cmTC_733a7.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_733a7
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -374,11 +374,11 @@ Run Build Command:"/Users/navi/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" 
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /Users/navi/Downloads/DayVR/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
+Change Dir: /Users/navi/AndroidStudioProjects/DayVR/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/navi/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_a5164"
-[1/2] Building CXX object CMakeFiles/cmTC_a5164.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_a5164
+Run Build Command:"/Users/navi/Library/Android/sdk/cmake/3.6.4111459/bin/ninja" "cmTC_3e31d"
+[1/2] Building CXX object CMakeFiles/cmTC_3e31d.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_3e31d
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

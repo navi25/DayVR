@@ -1,10 +1,10 @@
 Executable : /Users/navi/Library/Android/sdk/cmake/3.6.4111459/bin/cmake
 arguments : 
--H/Users/navi/Downloads/DayVR/app
--B/Users/navi/Downloads/DayVR/app/.externalNativeBuild/cmake/release/armeabi-v7a
+-H/Users/navi/AndroidStudioProjects/DayVR/app
+-B/Users/navi/AndroidStudioProjects/DayVR/app/.externalNativeBuild/cmake/release/armeabi-v7a
 -DANDROID_ABI=armeabi-v7a
 -DANDROID_PLATFORM=android-26
--DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/navi/Downloads/DayVR/app/build/intermediates/cmake/release/obj/armeabi-v7a
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/navi/AndroidStudioProjects/DayVR/app/build/intermediates/cmake/release/obj/armeabi-v7a
 -DCMAKE_BUILD_TYPE=Release
 -DANDROID_NDK=/Users/navi/Library/Android/sdk/ndk-bundle
 -DCMAKE_CXX_FLAGS=

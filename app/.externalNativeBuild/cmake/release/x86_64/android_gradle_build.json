@@ -1,9 +1,9 @@
 
 {
-	"buildFiles" : [ "/Users/navi/Downloads/DayVR/app/CMakeLists.txt" ],
+	"buildFiles" : [ "/Users/navi/AndroidStudioProjects/DayVR/app/CMakeLists.txt" ],
 	"cleanCommands" : 
 	[
-		"/Users/navi/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/navi/Downloads/DayVR/app/.externalNativeBuild/cmake/release/x86_64 --target clean"
+		"/Users/navi/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/navi/AndroidStudioProjects/DayVR/app/.externalNativeBuild/cmake/release/x86_64 --target clean"
 	],
 	"cppFileExtensions" : [ "cpp" ],
 	"libraries" : 
@@ -12,18 +12,18 @@
 		{
 			"abi" : "x86_64",
 			"artifactName" : "native-lib",
-			"buildCommand" : "/Users/navi/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/navi/Downloads/DayVR/app/.externalNativeBuild/cmake/release/x86_64 --target native-lib",
+			"buildCommand" : "/Users/navi/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/navi/AndroidStudioProjects/DayVR/app/.externalNativeBuild/cmake/release/x86_64 --target native-lib",
 			"buildType" : "release",
 			"files" : 
 			[
 				
 				{
 					"flags" : "  --target=x86_64-none-linux-android26 --gcc-toolchain=/Users/navi/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/navi/Library/Android/sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /Users/navi/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/navi/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/navi/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O2 -DNDEBUG  -fPIC    -c ",
-					"src" : "/Users/navi/Downloads/DayVR/app/src/main/cpp/native-lib.cpp",
-					"workingDirectory" : "/Users/navi/Downloads/DayVR/app/.externalNativeBuild/cmake/release/x86_64"
+					"src" : "/Users/navi/AndroidStudioProjects/DayVR/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/navi/AndroidStudioProjects/DayVR/app/.externalNativeBuild/cmake/release/x86_64"
 				}
 			],
-			"output" : "/Users/navi/Downloads/DayVR/app/build/intermediates/cmake/release/obj/x86_64/libnative-lib.so",
+			"output" : "/Users/navi/AndroidStudioProjects/DayVR/app/build/intermediates/cmake/release/obj/x86_64/libnative-lib.so",
 			"toolchain" : "4165608908617837192"
 		}
 	},
